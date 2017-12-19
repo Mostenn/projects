@@ -1,0 +1,6 @@
+td:nth-child(n+3):nth-child(odd){
+  background-color: #f2f2de;
+}
+tr:nth-child(2n){
+  background-color: #ddebf7;
+}

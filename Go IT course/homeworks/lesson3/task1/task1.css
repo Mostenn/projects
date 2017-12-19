@@ -1,0 +1,59 @@
+
+/* заголовок*/
+
+h1 {
+  text-align: right;
+  color: orange;
+}
+
+/*статья*/
+
+p:first-letter {
+  color: red;
+  font-size: 30px;
+  text-align: left;
+}
+em {
+  background-color: green;
+}
+
+/*списки*/
+
+#allotment h2 {
+  color: orange;
+}
+#warehouse h2{
+  color: blue;
+}
+div ul{
+  font-weight: bold;
+}
+.fruits-list, .vegetables-list{
+  font-weight: normal;
+}
+#allotment .fruits-list{
+  color: gray;
+}
+#warehouse .fruits-list{
+  color: green;
+}
+.vegetables-list{
+  color: red;
+}
+
+/*таблица*/
+.students-table{
+  text-align: center;
+}
+.students-table thead{
+  font-weight: bold;
+}
+.students-table tbody tr td{
+  background-color: green;
+  color: white;
+}
+.students-table tbody tr td:first-child{
+  color: orange;
+  text-align: left;
+  background-color: white;  
+}

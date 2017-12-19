@@ -1,0 +1,28 @@
+nav{
+  background-color: #a64dff;
+}
+ul{
+  list-style: none;
+  margin: auto;
+  padding-left: 0;
+  text-align: center;
+  font-size: 20px;
+  width: 900px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-family: Impact;
+  padding: 10px;
+}
+li{
+  display: inline-block;
+  margin: 10 auto;
+
+}
+a:hover{
+  color: #a0a0a0;
+  background-color: #eee;
+  padding: 10px;
+
+}

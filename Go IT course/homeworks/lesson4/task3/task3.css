@@ -1,0 +1,40 @@
+div ul{
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  width: 900px;
+}
+div li{
+  display: inline;
+}
+a{
+  text-decoration: none;
+font-family: Wingdings;
+color: #a64dff;
+font-size: 12px;
+margin: 2px;
+
+}
+.pages{
+  text-decoration: none;
+  font-family: Wingdings;
+  color: #a64dff;
+  border: 2px solid #eee;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 10px;
+  /* margin: 5px; */
+}
+div a:hover{
+  color: #eee;
+  background-color: #a64dff;
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+div span{
+  font-size: 14px;
+}
+#dots{
+  font-weight: bold;
+}

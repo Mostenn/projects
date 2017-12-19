@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header{
+  font-family: 'Oswald',sans-serif;
+  display: flex;
+  justify-content: center;
+  /* background: #0193d1; */
+}
+.headmenu{
+  width: 900px;
+  /* justify-content: center; */
+  position: relative;
+  /* background: #0193d1; */
+  /* margin:  auto; */
+}
+.topmenu {
+  padding: 0;
+}
+.headmenu ul{
+  margin: 0 auto;
+  padding: 0 auto;
+  list-style: none;
+}
+.headmenu > ul{
+    display: flex;
+  justify-content: center;
+}
+.headmenu > ul li a{
+  display: block;
+  padding: 7px 5px;
+  text-decoration: none;
+  color: #fffefe;
+  transition: all 0.4s ease;
+  background: #0193d1;
+  text-align: center;
+}
+.headmenu > ul li{
+  width: 100%;
+  display: block;
+  position: relative;
+
+}
+.headmenu > ul li a:hover{
+  background: #bfbfbf;
+  color: #7a7a7a;
+
+  /* padding: 15px 15px; */
+  box-shadow: 2px 5px 10px -5px black;
+  /* box-shadow: -1px 46px 68px -19px rgba(#000000, 0.67); */
+  transition: all 0.4s ease;
+}
+.headmenu li > ul li ul{
+ position: absolute;
+ right: -100%;
+ top: 0;
+}
+.headmenu li ul{
+  padding: 0;
+}
+.headmenu li ul{
+  position: absolute;
+  display: none;
+}
+.headmenu li:hover > ul{
+  display: block;
+  width: 100%;
+}

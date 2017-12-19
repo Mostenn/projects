@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: #a64dff;
+}
+nav ul{
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none; /*  убираем точки в списке */
+  text-align: center;
+  width: 900px;
+
+}
+nav li{
+  display: inline-block; /* делаем элемент блочным */
+}
+nav a{
+  text-decoration: none;  /* убираем подчеркивание для ссылки */
+  font-family: Impact;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 10px;
+  margin: 0;
+
+}
+nav a:hover{
+  color: #a0a0a0;
+  background-color: #eee;
+  padding: 5px 10px;
+  margin:0;
+}
+nav ul li:last-child{
+  float: right;
+}

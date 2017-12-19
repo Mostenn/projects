@@ -1,0 +1,42 @@
+/* скрыть чекбоксы и невыбранные элементы */
+input,span{
+  color: white;
+  display: none;
+}
+/* цвет элементов */
+span{
+  border-radius: 5px;
+  padding: 1px;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: blue;
+}
+/* цвет меток */
+label{
+  text-decoration: underline;
+}
+label[for="red"]{
+  color: red;
+}
+label[for="green"]{
+  color: green;
+}
+label[for="blue"]{
+  color: blue;
+}
+/* отображение элементов при нажатии */
+#red:checked~span[class^="red"]{
+  display: inline;
+}
+#green:checked~span[class^="green"]{
+  display: inline;
+}
+#blue:checked~span[class^="blue"]{
+  display: inline;
+}

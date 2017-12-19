@@ -1,0 +1,12 @@
+/* внешние ссылки */
+div a[href^="http://"], div a[href^="https://"]{
+  color: #f70;
+}
+/* ссылки гугл */
+div a[href*="google"]{
+  color: #666;
+}
+/* символ */
+a[target="_blank"]::after{
+  content: " ⇱";
+}

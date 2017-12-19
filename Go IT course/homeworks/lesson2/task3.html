@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+<h1>Registration</h1>
+<form class="registration" action="index.html" method="post">
+    <p>Name</p>
+  <input type="text" name="name" value="">
+    <p>Email</p>
+  <input type="text" name="email" value="">
+    <p>Sex</p>
+  <input type="radio" name="sex" value="male">Male
+  <input type="radio" name="sex" value="female">Female
+    <p>Current status</p>
+  <input type="checkbox" name="status" value="student">Student<br>
+  <input type="checkbox" name="status" value="employed">Employed<br>
+  <input type="checkbox" name="status" value="unemployed">Unemployed
+    <p>Month and Year of birth</p>
+  <select class="" name="month">
+    <option value="january">January</option>
+    <option selected value="february">February</option>
+    <option value="march">March</option>
+    <option value="april">April</option>
+  </select>
+  <select class="" name="year">
+    <option value="1920">1920</option>
+    <option selected value="1921">1921</option>
+    <option value="1922">1922</option>
+    <option value="1923">1923</option>
+  </select>
+    <p>Skills and Tehnologies</p>
+  <select class="" name="skill">
+    <optgroup label="Tech Skills">
+      <option value="ts1">HTML</option>
+      <option value="ts2">CSS</option>
+      <option value="ts3">JavaScript</option>
+      <option value="ts4">git</option>
+    </optgroup>
+    <optgroup label="Soft Skills">
+      <option value="ss1">Time managment</option>
+      <option value="ss2">Proactivity</option>
+      <option value="ss3">Teamwork</option>
+      <option value="ss4">Leadership</option>
+    </optgroup>
+  </select>
+    <p>Photo</p>
+  <input type="file" name="photo" value="photo">
+    <p>Comments</p>
+    <textarea name="comments" rows="8" cols="40"></textarea><br>
+    <input type="submit" name="submit" value="Submit">
+
+</form>
+  </body>
+</html>
