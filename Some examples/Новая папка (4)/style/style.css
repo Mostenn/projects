@@ -1,0 +1,14 @@
+.grid{
+    width: 1100px;
+}
+
+.left-content{
+    width: 30%;
+    height: 100%;
+    background-color: #3e4950;
+    float: left;
+}
+.photo {
+    background-color: #2d343a;
+}
+
